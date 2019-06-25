@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153B8AE7D3BC7A95113FE197 /* Pods_momo_clientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDE30CFFAC8326D270026B1 /* Pods_momo_clientUITests.framework */; };
+		A5EA69C47B68F74273B03A2C /* Pods_momo_client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F803E5A0D5547D60CD795D5 /* Pods_momo_client.framework */; };
+		C3BE2C8168836A740B56E86D /* Pods_momo_clientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194B70F837A88F17DD511FDA /* Pods_momo_clientTests.framework */; };
+		D7FA333522C20F6C0014ED5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FA333422C20F6C0014ED5B /* AppDelegate.swift */; };
+		D7FA333722C20F6C0014ED5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FA333622C20F6C0014ED5B /* ViewController.swift */; };
+		D7FA333A22C20F6C0014ED5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FA333822C20F6C0014ED5B /* Main.storyboard */; };
+		D7FA333C22C20F6E0014ED5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FA333B22C20F6E0014ED5B /* Assets.xcassets */; };
+		D7FA333F22C20F6E0014ED5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FA333D22C20F6E0014ED5B /* LaunchScreen.storyboard */; };
+		D7FA334A22C20F6F0014ED5B /* momo_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FA334922C20F6F0014ED5B /* momo_clientTests.swift */; };
+		D7FA335522C20F6F0014ED5B /* momo_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FA335422C20F6F0014ED5B /* momo_clientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7FA334622C20F6F0014ED5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7FA332922C20F6C0014ED5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7FA333022C20F6C0014ED5B;
+			remoteInfo = momo_client;
+		};
+		D7FA335122C20F6F0014ED5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7FA332922C20F6C0014ED5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7FA333022C20F6C0014ED5B;
+			remoteInfo = momo_client;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015C44BAEB5D15116FE4CC89 /* Pods-momo_client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-momo_client.release.xcconfig"; path = "Target Support Files/Pods-momo_client/Pods-momo_client.release.xcconfig"; sourceTree = "<group>"; };
+		194B70F837A88F17DD511FDA /* Pods_momo_clientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_momo_clientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2498889A54FFB7C3207B33EA /* Pods-momo_clientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-momo_clientTests.debug.xcconfig"; path = "Target Support Files/Pods-momo_clientTests/Pods-momo_clientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FDE30CFFAC8326D270026B1 /* Pods_momo_clientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_momo_clientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A51ED3BE9BE8EC8D089C51B /* Pods-momo_clientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-momo_clientUITests.release.xcconfig"; path = "Target Support Files/Pods-momo_clientUITests/Pods-momo_clientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F803E5A0D5547D60CD795D5 /* Pods_momo_client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_momo_client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78272A1722CB335A039B813E /* Pods-momo_client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-momo_client.debug.xcconfig"; path = "Target Support Files/Pods-momo_client/Pods-momo_client.debug.xcconfig"; sourceTree = "<group>"; };
+		7C775409BBEC6D6403833F7D /* Pods-momo_clientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-momo_clientUITests.debug.xcconfig"; path = "Target Support Files/Pods-momo_clientUITests/Pods-momo_clientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2B81DEC83ECCE9D55A43A3D /* Pods-momo_clientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-momo_clientTests.release.xcconfig"; path = "Target Support Files/Pods-momo_clientTests/Pods-momo_clientTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7FA333122C20F6C0014ED5B /* momo_client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = momo_client.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FA333422C20F6C0014ED5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7FA333622C20F6C0014ED5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7FA333922C20F6C0014ED5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7FA333B22C20F6E0014ED5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7FA333E22C20F6E0014ED5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7FA334022C20F6E0014ED5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FA334522C20F6F0014ED5B /* momo_clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = momo_clientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FA334922C20F6F0014ED5B /* momo_clientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = momo_clientTests.swift; sourceTree = "<group>"; };
+		D7FA334B22C20F6F0014ED5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FA335022C20F6F0014ED5B /* momo_clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = momo_clientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FA335422C20F6F0014ED5B /* momo_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = momo_clientUITests.swift; sourceTree = "<group>"; };
+		D7FA335622C20F6F0014ED5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7FA332E22C20F6C0014ED5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EA69C47B68F74273B03A2C /* Pods_momo_client.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FA334222C20F6F0014ED5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BE2C8168836A740B56E86D /* Pods_momo_clientTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FA334D22C20F6F0014ED5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153B8AE7D3BC7A95113FE197 /* Pods_momo_clientUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DAC536DD8ECAA947AEB2AB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78272A1722CB335A039B813E /* Pods-momo_client.debug.xcconfig */,
+				015C44BAEB5D15116FE4CC89 /* Pods-momo_client.release.xcconfig */,
+				2498889A54FFB7C3207B33EA /* Pods-momo_clientTests.debug.xcconfig */,
+				C2B81DEC83ECCE9D55A43A3D /* Pods-momo_clientTests.release.xcconfig */,
+				7C775409BBEC6D6403833F7D /* Pods-momo_clientUITests.debug.xcconfig */,
+				6A51ED3BE9BE8EC8D089C51B /* Pods-momo_clientUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		65E575092A47E9BB5517873E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F803E5A0D5547D60CD795D5 /* Pods_momo_client.framework */,
+				194B70F837A88F17DD511FDA /* Pods_momo_clientTests.framework */,
+				4FDE30CFFAC8326D270026B1 /* Pods_momo_clientUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7FA332822C20F6C0014ED5B = {
+			isa = PBXGroup;
+			children = (
+				D7FA333322C20F6C0014ED5B /* momo_client */,
+				D7FA334822C20F6F0014ED5B /* momo_clientTests */,
+				D7FA335322C20F6F0014ED5B /* momo_clientUITests */,
+				D7FA333222C20F6C0014ED5B /* Products */,
+				5DAC536DD8ECAA947AEB2AB5 /* Pods */,
+				65E575092A47E9BB5517873E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7FA333222C20F6C0014ED5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7FA333122C20F6C0014ED5B /* momo_client.app */,
+				D7FA334522C20F6F0014ED5B /* momo_clientTests.xctest */,
+				D7FA335022C20F6F0014ED5B /* momo_clientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7FA333322C20F6C0014ED5B /* momo_client */ = {
+			isa = PBXGroup;
+			children = (
+				D7FA333422C20F6C0014ED5B /* AppDelegate.swift */,
+				D7FA333622C20F6C0014ED5B /* ViewController.swift */,
+				D7FA333822C20F6C0014ED5B /* Main.storyboard */,
+				D7FA333B22C20F6E0014ED5B /* Assets.xcassets */,
+				D7FA333D22C20F6E0014ED5B /* LaunchScreen.storyboard */,
+				D7FA334022C20F6E0014ED5B /* Info.plist */,
+			);
+			path = momo_client;
+			sourceTree = "<group>";
+		};
+		D7FA334822C20F6F0014ED5B /* momo_clientTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7FA334922C20F6F0014ED5B /* momo_clientTests.swift */,
+				D7FA334B22C20F6F0014ED5B /* Info.plist */,
+			);
+			path = momo_clientTests;
+			sourceTree = "<group>";
+		};
+		D7FA335322C20F6F0014ED5B /* momo_clientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7FA335422C20F6F0014ED5B /* momo_clientUITests.swift */,
+				D7FA335622C20F6F0014ED5B /* Info.plist */,
+			);
+			path = momo_clientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7FA333022C20F6C0014ED5B /* momo_client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FA335922C20F6F0014ED5B /* Build configuration list for PBXNativeTarget "momo_client" */;
+			buildPhases = (
+				652E7F3A4026F027C95F02C9 /* [CP] Check Pods Manifest.lock */,
+				D7FA332D22C20F6C0014ED5B /* Sources */,
+				D7FA332E22C20F6C0014ED5B /* Frameworks */,
+				D7FA332F22C20F6C0014ED5B /* Resources */,
+				0E57EEE767373E0D365B5B91 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = momo_client;
+			productName = momo_client;
+			productReference = D7FA333122C20F6C0014ED5B /* momo_client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7FA334422C20F6F0014ED5B /* momo_clientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FA335C22C20F6F0014ED5B /* Build configuration list for PBXNativeTarget "momo_clientTests" */;
+			buildPhases = (
+				213C9D64BCC269550090FECC /* [CP] Check Pods Manifest.lock */,
+				D7FA334122C20F6F0014ED5B /* Sources */,
+				D7FA334222C20F6F0014ED5B /* Frameworks */,
+				D7FA334322C20F6F0014ED5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7FA334722C20F6F0014ED5B /* PBXTargetDependency */,
+			);
+			name = momo_clientTests;
+			productName = momo_clientTests;
+			productReference = D7FA334522C20F6F0014ED5B /* momo_clientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7FA334F22C20F6F0014ED5B /* momo_clientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FA335F22C20F6F0014ED5B /* Build configuration list for PBXNativeTarget "momo_clientUITests" */;
+			buildPhases = (
+				AFCD1A93CBA614702C7149F2 /* [CP] Check Pods Manifest.lock */,
+				D7FA334C22C20F6F0014ED5B /* Sources */,
+				D7FA334D22C20F6F0014ED5B /* Frameworks */,
+				D7FA334E22C20F6F0014ED5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7FA335222C20F6F0014ED5B /* PBXTargetDependency */,
+			);
+			name = momo_clientUITests;
+			productName = momo_clientUITests;
+			productReference = D7FA335022C20F6F0014ED5B /* momo_clientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7FA332922C20F6C0014ED5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = kkb;
+				TargetAttributes = {
+					D7FA333022C20F6C0014ED5B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D7FA334422C20F6F0014ED5B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D7FA333022C20F6C0014ED5B;
+					};
+					D7FA334F22C20F6F0014ED5B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D7FA333022C20F6C0014ED5B;
+					};
+				};
+			};
+			buildConfigurationList = D7FA332C22C20F6C0014ED5B /* Build configuration list for PBXProject "momo_client" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7FA332822C20F6C0014ED5B;
+			productRefGroup = D7FA333222C20F6C0014ED5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7FA333022C20F6C0014ED5B /* momo_client */,
+				D7FA334422C20F6F0014ED5B /* momo_clientTests */,
+				D7FA334F22C20F6F0014ED5B /* momo_clientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7FA332F22C20F6C0014ED5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FA333F22C20F6E0014ED5B /* LaunchScreen.storyboard in Resources */,
+				D7FA333C22C20F6E0014ED5B /* Assets.xcassets in Resources */,
+				D7FA333A22C20F6C0014ED5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FA334322C20F6F0014ED5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FA334E22C20F6F0014ED5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E57EEE767373E0D365B5B91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-momo_client/Pods-momo_client-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-momo_client/Pods-momo_client-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-momo_client/Pods-momo_client-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		213C9D64BCC269550090FECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-momo_clientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		652E7F3A4026F027C95F02C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-momo_client-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFCD1A93CBA614702C7149F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-momo_clientUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7FA332D22C20F6C0014ED5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FA333722C20F6C0014ED5B /* ViewController.swift in Sources */,
+				D7FA333522C20F6C0014ED5B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FA334122C20F6F0014ED5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FA334A22C20F6F0014ED5B /* momo_clientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FA334C22C20F6F0014ED5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FA335522C20F6F0014ED5B /* momo_clientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7FA334722C20F6F0014ED5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7FA333022C20F6C0014ED5B /* momo_client */;
+			targetProxy = D7FA334622C20F6F0014ED5B /* PBXContainerItemProxy */;
+		};
+		D7FA335222C20F6F0014ED5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7FA333022C20F6C0014ED5B /* momo_client */;
+			targetProxy = D7FA335122C20F6F0014ED5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7FA333822C20F6C0014ED5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7FA333922C20F6C0014ED5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7FA333D22C20F6E0014ED5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7FA333E22C20F6E0014ED5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7FA335722C20F6F0014ED5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7FA335822C20F6F0014ED5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7FA335A22C20F6F0014ED5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78272A1722CB335A039B813E /* Pods-momo_client.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTH7T55UH7;
+				INFOPLIST_FILE = momo_client/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.momo-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7FA335B22C20F6F0014ED5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015C44BAEB5D15116FE4CC89 /* Pods-momo_client.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTH7T55UH7;
+				INFOPLIST_FILE = momo_client/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.momo-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7FA335D22C20F6F0014ED5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2498889A54FFB7C3207B33EA /* Pods-momo_clientTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTH7T55UH7;
+				INFOPLIST_FILE = momo_clientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.momo-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/momo_client.app/momo_client";
+			};
+			name = Debug;
+		};
+		D7FA335E22C20F6F0014ED5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B81DEC83ECCE9D55A43A3D /* Pods-momo_clientTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTH7T55UH7;
+				INFOPLIST_FILE = momo_clientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.momo-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/momo_client.app/momo_client";
+			};
+			name = Release;
+		};
+		D7FA336022C20F6F0014ED5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C775409BBEC6D6403833F7D /* Pods-momo_clientUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTH7T55UH7;
+				INFOPLIST_FILE = momo_clientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.momo-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = momo_client;
+			};
+			name = Debug;
+		};
+		D7FA336122C20F6F0014ED5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A51ED3BE9BE8EC8D089C51B /* Pods-momo_clientUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTH7T55UH7;
+				INFOPLIST_FILE = momo_clientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.momo-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = momo_client;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7FA332C22C20F6C0014ED5B /* Build configuration list for PBXProject "momo_client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FA335722C20F6F0014ED5B /* Debug */,
+				D7FA335822C20F6F0014ED5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FA335922C20F6F0014ED5B /* Build configuration list for PBXNativeTarget "momo_client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FA335A22C20F6F0014ED5B /* Debug */,
+				D7FA335B22C20F6F0014ED5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FA335C22C20F6F0014ED5B /* Build configuration list for PBXNativeTarget "momo_clientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FA335D22C20F6F0014ED5B /* Debug */,
+				D7FA335E22C20F6F0014ED5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FA335F22C20F6F0014ED5B /* Build configuration list for PBXNativeTarget "momo_clientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FA336022C20F6F0014ED5B /* Debug */,
+				D7FA336122C20F6F0014ED5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7FA332922C20F6C0014ED5B /* Project object */;
+}
